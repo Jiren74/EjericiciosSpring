@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "869bceca-ad4e-44eb-98b1-980b787d342f",
+		"name": "Peticiones Personas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42575821"
+	},
+	"item": [
+		{
+			"name": "API Personas",
+			"item": [
+				{
+					"name": "GET Personas1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/personas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Personas2",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "POST Personas2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/envioFormulario?nombre=pepito&apellido1=Alvarez&apellido2=Castaño&fechaNacimiento=1991-05-11&sexo=Masculino",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"envioFormulario"
+							],
+							"query": [
+								{
+									"key": "nombre",
+									"value": "pepito"
+								},
+								{
+									"key": "apellido1",
+									"value": "Alvarez"
+								},
+								{
+									"key": "apellido2",
+									"value": "Castaño"
+								},
+								{
+									"key": "fechaNacimiento",
+									"value": "1991-05-11"
+								},
+								{
+									"key": "sexo",
+									"value": "Masculino"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Personas3 DNI",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Personas3 DNI",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
